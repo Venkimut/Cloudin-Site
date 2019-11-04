@@ -1,0 +1,30 @@
+<!-- A grey horizontal navbar that becomes vertical on small screens -->
+<nav class="navbar navbar-expand-sm position-fixed w-100 navbar-fixed-top navbar-light bg-light" style="z-index: 999;">
+    <div class="container">
+        <a class="navbar-brand" href="./"><img src="assets/images/icons/logo.png" style="width: 100%;"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navigation">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item b-right pr-4">
+                    <a class="nav-link" href="#">HOME</a>
+                </li>
+
+                <li class="nav-item b-right pr-4 pl-4 dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    SERVICES
+                        </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="services">Services</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" href="#">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

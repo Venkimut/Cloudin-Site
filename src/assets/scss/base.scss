@@ -1,0 +1,182 @@
+$cloudin: red;
+$cloudin_gradiant: linear-gradient( #ba215a, #33348d);
+* {
+    font-family: lato;
+}
+
+section {
+    width: 100%;
+}
+
+.height-100vh {
+    height: 100vh;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+//Text
+.cloudin-text {
+    p,
+    span,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    div,
+    i {
+        color: $cloudin;
+    }
+}
+
+.cloudin-red {
+    color: #d91c5c !important;
+}
+
+.pade-0 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.lite-black-text {
+    color: #00000073 !important;
+}
+
+.lite-white-text {
+    color: #ffffff80 !important;
+}
+
+.lite-blue-text {
+    color: #019ad5 !important;
+}
+
+.cloudin-blue {
+    color: #2472ae;
+}
+
+.section-count {
+    font-size: 150px;
+    font-weight: 100;
+    font-family: lato;
+    color: #0000004d;
+    margin-top: 42px;
+}
+
+.section-title {
+    font-size: 50px;
+    letter-spacing: 1px;
+    line-height: 65px;
+    position: relative;
+    z-index: 100;
+    text-transform: uppercase;
+    top: 50px;
+    font-weight: 300;
+}
+
+.section-content-head {
+    color: #e05f5f;
+    font-weight: 500;
+}
+
+.section-content-head::before {
+    content: "";
+    padding: 6px 2px;
+    background: #e05f5f;
+    margin: 20px;
+}
+
+.section-head-desc {
+    font-size: 30px;
+    position: relative;
+    top: 15px;
+    letter-spacing: 5px;
+}
+
+.cloudin-text {
+    background-image: -webkit-linear-gradient( #ba215a, #33348d) !important;
+    background-image: linear-gradient( #ba215a, #33348d) !important;
+    background-image: -moz-linear-gradient( #ba215a, #33348d) !important;
+    background-image: -o-linear-gradient( #ba215a, #33348d) !important;
+    color: transparent !important;
+    -webkit-background-clip: text !important;
+    -moz-background-clip: text !important;
+    -o-background-clip: text !important;
+}
+
+.styled-head {
+    font-family: lato;
+    font-size: 140px;
+    font-weight: bolder;
+}
+
+.desc {
+    font-size: larger;
+}
+
+//Backgrounds
+.bg-none {
+    background-image: none !important;
+    background-color: transparent !important;
+    background: none !important;
+}
+
+.bg-gray {
+    background-color: #80808021;
+}
+
+//Effects
+.hoverable {
+    transition-duration: 1s !important;
+    cursor: pointer !important;
+}
+
+.hoverable:hover {
+    transform: scale(0.9) !important;
+    transition-duration: 1s !important;
+}
+
+.hoverable-curve {
+    transition-duration: 1s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.hoverable-curve:hover {
+    transition-duration: 1s;
+    transform: scale(0.9);
+    border-radius: 25px;
+}
+
+.cloudin-blue-on-hover {
+    transition-duration: 100ms;
+}
+
+.cloudin-blue-on-hover:hover {
+    background-color: #02a5e687;
+}
+
+.cloudin-blue-on-hover:hover {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    span,
+    div,
+    label,
+    i,
+    a {
+        color: white !important;
+    }
+}

@@ -1,0 +1,502 @@
+* {
+  font-family: lato;
+}
+
+section {
+  width: 100%;
+}
+
+.height-100vh {
+  height: 100vh;
+}
+
+.height-100 {
+  height: 100%;
+}
+
+.cloudin-text p,
+.cloudin-text span,
+.cloudin-text h1,
+.cloudin-text h2,
+.cloudin-text h3,
+.cloudin-text h4,
+.cloudin-text h5,
+.cloudin-text h6,
+.cloudin-text div,
+.cloudin-text i {
+  color: red;
+}
+
+.cloudin-red {
+  color: #d91c5c !important;
+}
+
+.pade-0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.lite-black-text {
+  color: #00000073 !important;
+}
+
+.lite-white-text {
+  color: #ffffff80 !important;
+}
+
+.lite-blue-text {
+  color: #019ad5 !important;
+}
+
+.cloudin-blue {
+  color: #2472ae;
+}
+
+.section-count {
+  font-size: 150px;
+  font-weight: 100;
+  font-family: lato;
+  color: #0000004d;
+  margin-top: 42px;
+}
+
+.section-title {
+  font-size: 50px;
+  letter-spacing: 1px;
+  line-height: 65px;
+  position: relative;
+  z-index: 100;
+  text-transform: uppercase;
+  top: 50px;
+  font-weight: 300;
+}
+
+.section-content-head {
+  color: #e05f5f;
+  font-weight: 500;
+}
+
+.section-content-head::before {
+  content: "";
+  padding: 6px 2px;
+  background: #e05f5f;
+  margin: 20px;
+}
+
+.section-head-desc {
+  font-size: 30px;
+  position: relative;
+  top: 15px;
+  letter-spacing: 5px;
+}
+
+.cloudin-text {
+  background-image: -webkit-linear-gradient(#ba215a, #33348d) !important;
+  background-image: linear-gradient(#ba215a, #33348d) !important;
+  background-image: -moz-linear-gradient(#ba215a, #33348d) !important;
+  background-image: -o-linear-gradient(#ba215a, #33348d) !important;
+  color: transparent !important;
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  -o-background-clip: text !important;
+}
+
+.styled-head {
+  font-family: lato;
+  font-size: 140px;
+  font-weight: bolder;
+}
+
+.desc {
+  font-size: larger;
+}
+
+.bg-none {
+  background-image: none !important;
+  background-color: transparent !important;
+  background: none !important;
+}
+
+.bg-gray {
+  background-color: #80808021;
+}
+
+.hoverable {
+  transition-duration: 1s !important;
+  cursor: pointer !important;
+}
+
+.hoverable:hover {
+  transform: scale(0.9) !important;
+  transition-duration: 1s !important;
+}
+
+.hoverable-curve {
+  transition-duration: 1s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.hoverable-curve:hover {
+  transition-duration: 1s;
+  transform: scale(0.9);
+  border-radius: 25px;
+}
+
+.cloudin-blue-on-hover {
+  transition-duration: 100ms;
+}
+
+.cloudin-blue-on-hover:hover {
+  background-color: #02a5e687;
+}
+
+.cloudin-blue-on-hover:hover h1,
+.cloudin-blue-on-hover:hover h2,
+.cloudin-blue-on-hover:hover h3,
+.cloudin-blue-on-hover:hover h4,
+.cloudin-blue-on-hover:hover h5,
+.cloudin-blue-on-hover:hover h6,
+.cloudin-blue-on-hover:hover p,
+.cloudin-blue-on-hover:hover span,
+.cloudin-blue-on-hover:hover div,
+.cloudin-blue-on-hover:hover label,
+.cloudin-blue-on-hover:hover i,
+.cloudin-blue-on-hover:hover a {
+  color: white !important;
+}
+
+section#ourservices {
+  background: url("../images/backgrounds/Our Service_01.jpg") no-repeat center;
+  background-size: cover;
+  background-position: left;
+}
+
+section#randd {
+  background: url("../images/backgrounds/R&D.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.hovereffect {
+  width: 100%;
+  height: 250px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  margin: 10px;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+.hovereffect img {
+  display: block;
+  width: 100%;
+  position: relative;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+.hovereffect h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+}
+.hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  background-color: transparent;
+}
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+.hovereffect a.info, .hovereffect h2 {
+  -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.hovereffect:hover img {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /><feGaussianBlur stdDeviation="3" /></filter></svg>#filter');
+  filter: grayscale(1) blur(3px);
+  -webkit-filter: grayscale(1) blur(3px);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.hovereffect:hover a.info, .hovereffect:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect2 {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hovereffect2 .overlay {
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  top: auto;
+  bottom: 40px;
+  padding: 0em;
+  height: 4.75em;
+  background: #79FAC4;
+  color: #3c4a50;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  visibility: hidden;
+}
+
+.hovereffect2 img {
+  display: block;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  width: 100%;
+}
+
+.hovereffect2:hover img {
+  -webkit-transform: translate3d(0, -10%, 0);
+  transform: translate3d(0, -10%, 0);
+}
+
+.hovereffect2 h2 {
+  color: #000;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  margin: 0px;
+  float: left;
+  display: inline-block;
+}
+
+.hovereffect2 a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  background-color: transparent;
+}
+
+.hovereffect2 a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect2 p.icon-links a {
+  float: right;
+  color: #3c4a50;
+  font-size: 1.4em;
+}
+
+.hovereffect2 h5 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.hovereffect2:hover p.icon-links a:hover,
+.hovereffect2:hover p.icon-links a:focus {
+  color: #252d31;
+}
+
+.hovereffect2 h2,
+.hovereffect2 p.icon-links a {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 200%, 0);
+  transform: translate3d(0, 200%, 0);
+  visibility: visible;
+}
+
+.hovereffect2 p.icon-links a span:before {
+  display: inline-block;
+  padding: 8px 10px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hovereffect2:hover .overlay,
+.hovereffect2:hover h2,
+.hovereffect2:hover p.icon-links a {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.hovereffect2:hover h2 {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+
+.hovereffect2:hover p.icon-links a:nth-child(3) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+.hovereffect2:hover p.icon-links a:nth-child(2) {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+.hovereffect2:hover p.icon-links a:first-child {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+section#footer {
+  background: url("../images/backgrounds/Contact.jpg") no-repeat top;
+  background-size: cover;
+}
+
+section#footer h1, section#footer h2, section#footer h3, section#footer h4, section#footer h5, section#footer h6, section#footer p, section#footer i, section#footer span, section#footer div {
+  color: white;
+}
+
+imgcaption {
+  font-size: 25px;
+  position: relative;
+  top: 5px;
+}
+
+section {
+  width: 100%;
+}
+
+section#home {
+  position: relative;
+  background: url("../images/backgrounds/home.jpg") no-repeat center;
+  background-size: cover;
+  background-color: #00000045;
+  background-blend-mode: overlay;
+  height: 80vh;
+}
+
+.main-socials {
+  position: absolute;
+  top: 0;
+  right: 2%;
+}
+
+.main-socials img {
+  width: 40px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition-duration: 800ms;
+}
+
+hr.span {
+  width: 30px;
+  background: #ff2f82;
+  height: 1px;
+  margin: auto;
+}
+
+.main-socials img:hover {
+  transform: scale(0.9);
+  transition-duration: 800ms;
+}
+
+section#rating {
+  min-height: 15vh;
+}
+
+section#rating h1,
+section#rating h2,
+section#rating h3,
+section#rating h4,
+section#rating h5,
+section#rating h6 {
+  font-size: 20px;
+}
+section#rating i {
+  font-size: 30px;
+  padding-top: 10px;
+}
+section#rating button {
+  position: relative;
+  top: -10px;
+}
+
+section#aboutcompany {
+  background-image: url("../images/backgrounds/Logo-01.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+section#video {
+  background-image: url("../images/backgrounds/video_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #00000099;
+  background-blend-mode: overlay;
+}
+
+section#video h1,
+section#video h2,
+section#video h3,
+section#video h4,
+section#video h5,
+section#video h6,
+section#video p,
+section#video i,
+section#video div,
+section#video span,
+section#video a {
+  color: white !important;
+}
+
+section#withus {
+  background: url("../images/backgrounds/Reachout.jpg") no-repeat top;
+  background-size: cover;
+}
+
+.white-overlay {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  background: #2121218f !important;
+  z-index: 5;
+}
+
+/*# sourceMappingURL=style.css.map */

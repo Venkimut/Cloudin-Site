@@ -1,0 +1,112 @@
+@use 'base';
+@use 'services';
+@use 'randd';
+@use 'products';
+@use 'recentworks';
+@use 'team';
+@use 'footer';
+section {
+    width: 100%;
+}
+
+section#home {
+    position: relative;
+    background: url("../images/backgrounds/home.jpg") no-repeat center;
+    background-size: cover;
+    background-color: #00000045;
+    background-blend-mode: overlay;
+    height: 80vh;
+}
+
+.main-socials {
+    position: absolute;
+    top: 0;
+    right: 2%;
+}
+
+.main-socials img {
+    width: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition-duration: 800ms;
+}
+
+hr.span {
+    width: 30px;
+    background: #ff2f82;
+    height: 1px;
+    margin: auto;
+}
+
+.main-socials img:hover {
+    transform: scale(0.9);
+    transition-duration: 800ms;
+}
+
+section#rating {
+    min-height: 15vh;
+}
+
+section#rating {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 20px;
+    }
+    i {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    button {
+        position: relative;
+        top: -10px;
+    }
+}
+
+section#aboutcompany {
+    background-image: url("../images/backgrounds/Logo-01.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+section#video {
+    background-image: url("../images/backgrounds/video_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #00000099;
+    background-blend-mode: overlay;
+}
+
+section#video {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    i,
+    div,
+    span,
+    a {
+        color: white !important;
+    }
+}
+
+section#withus {
+    background: url("../images/backgrounds/Reachout.jpg") no-repeat top;
+    background-size: cover;
+}
+
+.white-overlay {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background: #2121218f !important;
+    z-index: 5;
+}

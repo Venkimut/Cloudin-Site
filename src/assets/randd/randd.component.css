@@ -1,0 +1,45 @@
+body{
+    font-family: Lato;
+}
+.banner{
+    background: url("../../assets/images/randd/banner.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+    padding-bottom: 10%;
+}
+
+.color-pink{
+    color:#e91e63;
+}
+.btns{
+    border-radius: 50px;
+    font-size: 20px;
+}
+.register{
+    background: linear-gradient(50deg,#5c1069, #E91E63) !important;
+    color:transparent;
+    -webkit-background-clip: text !important;
+}
+p{
+    font-size: 130px;
+    font-weight: 100;
+    background: linear-gradient(75deg,#5c1069, #E91E63) !important;
+    color:transparent;
+    -webkit-background-clip: text !important;
+}
+
+.section-bg{
+    background: url("../../assets/images/randd/Image_02.jpg");
+    background-repeat: no-repeat;
+    /* width: 100%;
+    height: 120%; */
+    position: relative;
+    color: white;
+}
+.card-content{
+    color: teal!important;
+}
+
+
+

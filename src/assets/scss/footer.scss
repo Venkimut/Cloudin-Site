@@ -1,0 +1,17 @@
+//Footer Section
+section#footer {
+    background: url("../images/backgrounds/Contact.jpg") no-repeat top;
+    background-size: cover;
+}
+
+section#footer {
+    h1,h2,h3,h4,h5,h6,p,i,span,div {
+        color: white;
+    }
+}
+
+imgcaption {
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+}
